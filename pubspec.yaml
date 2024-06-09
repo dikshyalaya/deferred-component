@@ -1,0 +1,23 @@
+name: deferred_components_app
+description: A new Flutter project with deferred components.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  feature1:
+    path: packages/feature1
+  feature2:
+    path: packages/feature2
